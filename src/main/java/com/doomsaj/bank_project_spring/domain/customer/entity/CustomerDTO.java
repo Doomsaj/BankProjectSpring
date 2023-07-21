@@ -14,10 +14,9 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CustomerDTO {
-
     long id;
     long number;
-    String password;
     Set<AccountDTO> accounts;
+    String password;
     DatePropertiesDTO dates;
 }

@@ -1,12 +1,13 @@
 package com.doomsaj.bank_project_spring.domain.bank.entity;
 
-import com.doomsaj.bank_project_spring.domain.branch.entity.Branch;
+import com.doomsaj.bank_project_spring.domain.branch.entity.BranchDTO;
 import com.doomsaj.bank_project_spring.domain.embeddeds.date_props.DatePropertiesDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Setter
@@ -16,6 +17,6 @@ import java.util.Set;
 public class BankDTO {
     long id;
     String name;
-    Set<Branch> branches;
+    Set<BranchDTO> branches = new HashSet<>();
     DatePropertiesDTO dateProperties;
 }
