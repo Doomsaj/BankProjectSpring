@@ -1,6 +1,6 @@
 package com.doomsaj.bank_project_spring.domain.transaction.entity;
 
-import com.doomsaj.bank_project_spring.domain.embeddeds.DateProperties;
+import com.doomsaj.bank_project_spring.domain.embeddeds.date_props.DateProperties;
 import com.doomsaj.bank_project_spring.domain.account.entity.Account;
 import com.doomsaj.bank_project_spring.domain.transaction.consts.TransactionType;
 import jakarta.persistence.*;

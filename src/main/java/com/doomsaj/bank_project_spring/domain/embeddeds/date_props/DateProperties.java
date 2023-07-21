@@ -1,4 +1,4 @@
-package com.doomsaj.bank_project_spring.domain.embeddeds;
+package com.doomsaj.bank_project_spring.domain.embeddeds.date_props;
 
 import jakarta.persistence.Embeddable;
 

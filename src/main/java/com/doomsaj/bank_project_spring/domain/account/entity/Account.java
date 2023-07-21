@@ -1,6 +1,6 @@
 package com.doomsaj.bank_project_spring.domain.account.entity;
 
-import com.doomsaj.bank_project_spring.domain.embeddeds.DateProperties;
+import com.doomsaj.bank_project_spring.domain.embeddeds.date_props.DateProperties;
 import com.doomsaj.bank_project_spring.domain.branch.entity.Branch;
 import com.doomsaj.bank_project_spring.domain.customer.entity.Customer;
 import com.doomsaj.bank_project_spring.domain.transaction.entity.Transaction;
