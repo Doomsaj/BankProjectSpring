@@ -16,7 +16,7 @@ import java.util.Set;
 public class CustomerDTO {
     long id;
     long number;
-    Set<AccountDTO> accounts;
+    Set<Long> accountsIds;
     String password;
     DatePropertiesDTO dates;
 }

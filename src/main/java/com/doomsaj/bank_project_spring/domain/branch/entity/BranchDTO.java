@@ -17,7 +17,7 @@ import java.util.Set;
 public class BranchDTO {
     long id;
     String name;
-    BankDTO bank;
-    Set<AccountDTO> accounts;
+    Long bankId;
+    Set<Long> accountsIds;
     DatePropertiesDTO dates;
 }

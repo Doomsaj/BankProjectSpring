@@ -17,7 +17,7 @@ public class TransactionDTO {
     long id;
     double amount;
     TransactionType type;
-    AccountDTO account;
+    Long accountId;
     boolean status;
     String description;
     DatePropertiesDTO dates;

@@ -17,6 +17,6 @@ import java.util.Set;
 public class BankDTO {
     long id;
     String name;
-    Set<BranchDTO> branches = new HashSet<>();
+    Set<Long> branchesIds = new HashSet<>();
     DatePropertiesDTO dateProperties;
 }
